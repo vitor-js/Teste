@@ -1,0 +1,42 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "9.x",
+    "node": "20.x"
+  },  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@hookform/resolvers": "^3.3.4",
+    "@tanstack/react-query": "^5.28.14",
+    "@types/jwt-decode": "^3.1.0",
+    "axios": "^1.6.8",
+    "cookies-next": "^4.1.1",
+    "framer-motion": "^11.0.24",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^4.0.0",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-query": "^3.39.3",
+    "styled-components": "^6.1.8",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}
